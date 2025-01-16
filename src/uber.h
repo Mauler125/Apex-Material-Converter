@@ -345,7 +345,7 @@ struct CBufSpriteCard_V15
 	float c_alphaTestRef;
 	float c_tsaaMotionAlphaThreshold;
 	float c_tsaaMotionAlphaRamp;
-	unsigned int c_tsaaResponsiveFlag;
+	uint c_tsaaResponsiveFlag;
 };
 
 static_assert(sizeof(CBufSpriteCard_V15) == 80, "Static sprite buf struct V15 size mismatch!");
